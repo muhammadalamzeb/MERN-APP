@@ -6,7 +6,6 @@ const userRoute = require("./routes/userRoute");
 
 const app =express();
 
-
 app.use(express.json());
 
 mongoose.connect(process.env.URI).then(()=>{
