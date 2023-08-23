@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
     age:{
         type:Number
     }
-});
+} , {timestamps:true});
 
 //From here creating model
 const User = mongoose.model('User',userSchema);
