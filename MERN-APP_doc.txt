@@ -1,0 +1,11 @@
+//To start backend 
+-> cd backend
+-> npm run dev
+
+//open backend/js in chrome
+localhost:5000
+
+
+//Front-End
+-> cd frontend
+-> npm run start
